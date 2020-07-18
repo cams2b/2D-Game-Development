@@ -26,6 +26,7 @@ public class CharController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // test
         if (Input.anyKey)
         {
             Move();
