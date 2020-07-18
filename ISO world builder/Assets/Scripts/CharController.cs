@@ -41,6 +41,7 @@ public class CharController : MonoBehaviour
 
         Vector3 heading = Vector3.Normalize(rightMovement + upMovement);
 
+        // Update positions
         transform.forward = heading;
         transform.position += rightMovement;
         transform.position += upMovement;
