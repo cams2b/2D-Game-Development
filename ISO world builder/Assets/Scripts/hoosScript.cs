@@ -20,7 +20,7 @@ public class hoosScript : MonoBehaviour
     {
         if(other.name == "Protagonist")
         {
-            Destroy(gameObject);
+            Debug.Log("We hit an obstacle");
         }
 
     }
